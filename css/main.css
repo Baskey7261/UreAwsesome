@@ -4,6 +4,8 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5rem;
 }
 
 body {
@@ -27,10 +29,12 @@ body {
 
 em {
     color: rgb(161, 161, 161);
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
 p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 100;
     font-style: normal;
     line-height: 1.6em;
@@ -39,9 +43,13 @@ p {
     color: rgb(223, 222, 222);
 }
 
+h3+p {
+    color: rgb(199, 198, 198);
+}
+
 h1 {
     font-family: Raleway-bold;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
     font-style: normal;
     line-height: 1.5em;
@@ -53,28 +61,28 @@ h2 {
     font-size: 1.8rem;
     font-weight: 600;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 3rem;
     letter-spacing: 0.055em;
     margin: 0px;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 500;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 2rem;
     letter-spacing: 0.055em;
     margin: 0px 0px 1rem 0px;
     color: rgb(194, 193, 193);
 }
 
 h4 {
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 300;
     font-style: normal;
-    line-height: 1.5rem;
+    line-height: 2rem;
     letter-spacing: 0.12em;
-    margin: 0px;
+    margin: 0px 0px 1rem 0px;
     color: rgb(163, 84, 146);
 }
 
@@ -100,9 +108,10 @@ nav {
 }
 
 nav div {
-    color: rgb(201, 199, 199);
-    font-size: 0.7rem;
+    color: rgb(182, 182, 182);
+    font-size: 0.8rem;
     font-weight: 100;
+    cursor: pointer;
 }
 
 nav div:nth-child(1) {
@@ -142,12 +151,13 @@ header {
 
 .thin {
     font-weight: 100;
+    font-size: 1em;
     color: rgb(209, 208, 208);
 }
 
 .pageSubTitle {
     text-align: center;
-    color: rgb(187, 187, 186);
+    color: rgb(165, 165, 164);
     font-weight: 300;
     letter-spacing: .06em;
 }
@@ -170,9 +180,9 @@ header {
 
 .socLinks div {
     font-family: "icomoon";
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     display: flexbox;
-    color: rgb(187, 187, 186);
+    color: rgb(165, 165, 164);
     cursor: pointer;
     font-weight: 200;
 }
@@ -246,6 +256,10 @@ header {
 
 .cell2 img {
     object-fit: cover;
+}
+
+.more {
+    cursor: pointer;
 }
 
 .cell3 {
