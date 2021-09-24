@@ -385,3 +385,34 @@ footer ul {
     text-align: center;
     display: block;
 }
+
+@media screen and (max-width: 500px) {
+    header {
+        min-height: 100vh;
+    }
+    .headBlock {
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+    .headBlock * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .socLinks {
+        display: flex;
+        gap: 25px;
+        grid-row: 4/6;
+        grid-column: 1/-1;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .socLinks div {
+        font-family: "icomoon";
+        font-size: 1.5rem;
+        color: rgb(187, 187, 186);
+        cursor: pointer;
+        font-weight: 200;
+    }
+}
